@@ -1,0 +1,133 @@
+.banner {
+  width: 15rem;
+  height: 3.24rem;
+  background-image: url("../img/slice/bannerbg.jpg");
+  display: table-cell;
+  vertical-align: middle;
+}
+.banner span {
+  font-size: 0.6rem;
+  color: #00B600;
+  margin-left: 0.2rem;
+}
+.banner a {
+  float: right;
+  margin-right: 0.4rem;
+  font-size: 0.6rem;
+  width: 3.32rem;
+  height: 1.16rem;
+  text-align: center;
+  line-height: 1.16rem;
+  border-radius: 5px;
+}
+.banner #d-download {
+  border: 1px solid #00B600;
+  background: white;
+  color: #00B600;
+  font-weight: bold;
+}
+.banner #d-open {
+  border: 1px solid #00B600;
+  background: #00B600;
+  color: white;
+  font-weight: bold;
+}
+.doulist-words {
+  width: 15rem;
+  height: 10rem;
+}
+.doulist-words ul li {
+  width: 15rem;
+  text-align: center;
+}
+.doulist-words ul li h1 {
+  font-size: 0.92rem;
+  width: 11.48rem;
+  margin: 0 auto;
+  color: #494949;
+  font-weight: normal;
+}
+.doulist-words ul li span {
+  font-size: 0.6rem;
+  color: #924949;
+  margin: 0 auto;
+}
+.doulist-words ul li a {
+  color: #00B600;
+}
+.doulist-words ul li #d-like {
+  display: block;
+  width: 4.52rem;
+  height: 1.32rem;
+  line-height: 1.32rem;
+  border: 1px solid #00B600;
+  border-radius: 8px;
+  color: #00B600;
+  background: white;
+  font-size: 0.44rem;
+  float: left;
+}
+.doulist-words ul li #d-more {
+  display: block;
+  float: left;
+  width: 2.52rem;
+  height: 1.32rem;
+  border: 1px solid #00B600;
+  border-radius: 8px;
+  color: #00B600;
+  background: white;
+  margin-left: 0.4rem;
+}
+.doulist-words ul li:nth-child(4) {
+  padding-left: 4.4rem;
+  margin-top: 0.4rem;
+}
+.d-list {
+  width: 15rem;
+  height: 10.08rem;
+  margin-bottom: 0.52rem;
+}
+.d-list .d-list-top {
+  width: 100%;
+  height: 5.6rem;
+}
+.d-list .d-list-top img {
+  width: 3.06rem;
+  height: 4.48rem;
+  float: left;
+}
+.d-list .d-list-top ul {
+  float: left;
+}
+.d-list .d-list-top ul li {
+  width: 9.72rem;
+  font-size: 0.64rem;
+  height: 0.8rem;
+  padding-left: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.d-list .d-list-top ul li img {
+  width: 4.28rem;
+  height: 0.8rem;
+}
+.d-list .d-list-top ul li:nth-child(1) {
+  font-size: 0.64rem;
+  color: #494949;
+}
+.d-list .d-list-top ul li:nth-child(3) {
+  font-size: 0.6rem;
+  color: #aaaaaa;
+}
+.d-list .d-list-bottom {
+  width: 12.72rem;
+  height: 3.6rem;
+  font-size: 0.52rem;
+  line-height: 1.7;
+  color: #494949;
+  border-bottom: 1px solid darkgray;
+  padding-top: 0.3rem;
+}
+.d-list .d-list-bottom p {
+  border-left: 6px solid #e5e5e5;
+  padding-left: 0.36rem;
+}

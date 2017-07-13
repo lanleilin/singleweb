@@ -1,0 +1,118 @@
+header {
+  width: 15rem;
+}
+.find-contents {
+  width: 100%;
+  height: 5.28rem;
+}
+.find-contents .f-item-contents {
+  height: 100%;
+}
+.find-contents .f-item-contents ul {
+  height: 5.28rem;
+  width: 45rem;
+}
+.find-contents .f-item-contents ul li {
+  height: 2.12rem;
+  margin-right: 0.4rem;
+  float: left;
+  border: 1px solid #ffc46c;
+  margin: 0.32rem 0.32rem 0 0;
+  padding: 0 1rem;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 1.48rem;
+}
+.find-contents .f-item-contents ul li a {
+  font-size: 0.64rem;
+  line-height: 2.12rem;
+}
+.find-contents .f-item-contents ul li:nth-child(1) {
+  border: 1px solid #ffc46c;
+}
+.find-contents .f-item-contents ul li:nth-child(1) a {
+  color: #ffc46c;
+}
+.find-contents .f-item-contents ul li:nth-child(2) {
+  border: 1px solid #2384e8;
+}
+.find-contents .f-item-contents ul li:nth-child(2) a {
+  color: #2384e8;
+}
+.find-contents .f-item-contents ul li:nth-child(3) {
+  border: 1px solid #2ab8cc;
+}
+.find-contents .f-item-contents ul li:nth-child(3) a {
+  color: #2ab8cc;
+}
+.find-contents .f-item-contents ul li:nth-child(4) {
+  border: 1px solid #2384e8;
+}
+.find-contents .f-item-contents ul li:nth-child(4) a {
+  color: #2384e8;
+}
+.find-contents .f-item-contents ul li:nth-child(5) {
+  border: 1px solid #ff8d55;
+}
+.find-contents .f-item-contents ul li:nth-child(5) a {
+  color: #ff8d55;
+}
+.find-contents .f-item-contents ul li:nth-child(6) {
+  border: 1px solid #00b600;
+}
+.find-contents .f-item-contents ul li:nth-child(6) a {
+  color: #00b600;
+}
+.find-contents .f-item-contents ul li:nth-child(7) {
+  border: 1px solid #9f7860;
+}
+.find-contents .f-item-contents ul li:nth-child(7) a {
+  color: #9f7860;
+}
+.find-contents .f-item-contents ul li:nth-child(8) {
+  border: 1px solid #00b600;
+}
+.find-contents .f-item-contents ul li:nth-child(8) a {
+  color: #00b600;
+}
+.home-list {
+  width: 100%;
+  height: 15.76rem;
+}
+.home-list .h-list-content ul {
+  width: 15rem;
+  height: 15.76rem;
+}
+.home-list .h-list-content ul li {
+  width: 6.64rem;
+  height: 1.76rem;
+  color: #42BD56;
+  float: left;
+  font-size: 0.52rem;
+  border-top: 1px solid #eeeeee;
+}
+.home-list .h-list-content ul li a {
+  font-size: 0.52rem;
+  color: #42BD56;
+  width: 6rem;
+  height: 100%;
+  display: inline-block;
+  line-height: 1.76rem;
+}
+.home-list .h-list-content ul li:nth-of-type(odd) {
+  color: #d8d8d8;
+  border-right: 1px solid #eeeeee;
+}
+.home-list .h-list-content ul li:nth-of-type(even) {
+  color: #d8d8d8;
+}
+.home-list .h-list-content ul li:nth-of-type(even) a {
+  width: 5.36rem;
+  padding-left: 0.64rem;
+}
+.home-list .h-list-content ul li:nth-child(17) {
+  border-bottom: 2px solid ;
+}
+.home-list .h-list-content ul li:nth-child(18) {
+  border-bottom: 2px solid #eeeeee;
+}

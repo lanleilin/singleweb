@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<style type="text/css">
+			body {
+				padding: 50px;
+				font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+			}
+			/*      p{
+      	color: red;
+      }*/
+		</style>
+		<link rel="stylesheet" type="text/css" href="red.css">
+		<script type="text/javascript" src="sayBye.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.min.js">
+		</script>
+	</head>
+
+	<body>
+		<p>sayhello</p>
+		<script type="text/javascript">
+			$(function() {
+				//		alert('success');
+				$.ajax({
+					url: '/ajax/test',
+					type: 'get',
+					dataType: 'json',
+					success: function(data) {
+						$('div').html(data.tips);
+					},
+					error: function(data) {
+						alert('error');
+					}
+				});
+			})
+		</script>
+
+	</body>
+
+</html>

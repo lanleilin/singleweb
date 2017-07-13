@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+a {
+  color: #00B600;
+  box-shadow: none;
+}
+a,
+button,
+input {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+.s-title {
+  font-size: 0.64rem !important;
+  color: #aaaaaa !important;
+  margin-bottom: 0.4rem !important;
+  display: block !important;
+  width: 100%;
+  height: 0.8rem;
+}
+.s-p {
+  color: #aaaaaa;
+  height: 100%;
+  font-size: 0.6rem;
+}
+.wrap {
+  width: 13.56rem !important;
+  margin: 0 auto !important;
+  overflow: hidden;
+}
+#c-nav {
+  width: 100%;
+  height: 1.92rem;
+  border-bottom: 1px solid #f3f3f3;
+}
+#c-nav img {
+  width: 3.2rem;
+  height: 1.8rem;
+}
+#c-nav ul {
+  height: 1.92rem;
+  display: inline-block;
+  float: right;
+}
+#c-nav ul li {
+  margin: 0 0.4rem;
+  text-align: center;
+  font-size: 0.6rem;
+  float: left;
+  line-height: 1.92rem;
+}
+#c-nav ul li a {
+  width: 1.24rem;
+  height: 1.92rem;
+  display: block;
+}
+#c-nav ul li:nth-child(1) a {
+  color: #2384e8;
+}
+#c-nav ul li:nth-child(2) a {
+  color: #9f7860;
+}
+#c-nav ul li:nth-child(3) a {
+  color: #e4a813;
+}
+#c-nav ul li:nth-child(4) a {
+  color: #65b8cc;
+}
+#c-nav ul li:nth-child(5) img {
+  width: 1rem;
+  height: 0.76rem;
+  vertical-align: middle;
+}
+.subnav {
+  width: 100%;
+  height: 1.56rem;
+}
+.subnav span {
+  float: left;
+  font-size: 0.64rem;
+  height: 100%;
+  line-height: 1.56rem;
+}
+.subnav a {
+  float: right;
+  font-size: 0.52rem;
+  color: #42bd56;
+  height: 100%;
+  line-height: 1.56rem;
+}
+.movie-contents {
+  width: 100%;
+  margin-bottom: 0.6rem;
+  padding-top: 0.48rem;
+}
+.movie-contents .m-item-contents {
+  height: 100%;
+}
+.movie-contents .m-item-contents ul {
+  width: 24rem;
+}
+.movie-contents .m-item-contents ul li {
+  height: 100%;
+  width: 4rem;
+  margin-right: 0.4rem;
+  float: left;
+}
+.movie-contents .m-item-contents ul li span {
+  margin: 0 !important;
+  float: left;
+}
+.movie-contents .m-item-contents ul li .movie-img {
+  width: 4rem;
+  height: 5.76rem;
+}
+.movie-contents .m-item-contents ul li .movie-img img {
+  width: 100%;
+  height: 100%;
+}
+.movie-contents .m-item-contents ul li .movie-title {
+  width: 4rem;
+  height: 1.08rem;
+  font-size: 0.64rem;
+  line-height: 1.08rem;
+  color: royalblue;
+  display: inline-block;
+}
+.movie-contents .m-item-contents ul li .movie-rank {
+  display: table-cell;
+  text-align: center;
+  width: 4rem;
+  height: 0.68rem;
+}
+.movie-contents .m-item-contents ul li .movie-rank img {
+  width: 3.36rem;
+  height: 0.68rem;
+  vertical-align: middle;
+  display: block;
+}
+footer {
+  width: 15rem;
+  height: 8.6rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+footer .h-footer {
+  width: 100%;
+  height: 4.2rem;
+}
+footer .h-footer ul {
+  width: 9.8rem;
+  height: 4.2rem;
+  margin: 0 auto;
+  display: block;
+}
+footer .h-footer ul li {
+  float: left;
+}
+footer .h-footer ul li:nth-child(1) {
+  width: 3.36rem;
+  height: 2.72rem;
+  padding-left: 0.56rem;
+  margin-right: 0.2rem;
+}
+footer .h-footer ul li:nth-child(1) img {
+  width: 1.96rem;
+  height: 1.96rem;
+  float: right;
+  vertical-align: middle;
+  display: block;
+}
+footer .h-footer ul li:nth-child(2) {
+  width: 4.56rem;
+  height: 1.36rem;
+}
+footer .h-footer ul li:nth-child(3) {
+  width: 4.56rem;
+  height: 1.16rem;
+  font-size: 0.52rem;
+}
+footer .h-footer ul li:nth-child(4) {
+  width: 9.8rem;
+  height: 1.24rem;
+  line-height: 1.24rem;
+  font-size: 0.6rem;
+  text-align: center;
+  color: #00B600;
+}
+.s-button-container {
+  width: 15rem;
+  height: 1.96rem;
+}
+.s-button-container .s-button {
+  height: 1.96rem;
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+.s-button-container .s-button span {
+  display: block;
+  width: 6.5rem;
+  height: 1.28rem;
+  border: 2px solid #ffb712;
+  color: #ffb712;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 1.28rem;
+  float: left;
+  margin-left: 0.2rem;
+  border-radius: 8px;
+}
+.s-intro-container {
+  width: 15rem;
+  margin-bottom: 0.4rem;
+}
+.s-intro-container span {
+  color: #aaaaaa;
+  font-size: 0.32rem;
+}
+.s-intro-container p {
+  width: 100%;
+  height: 100%;
+  color: #494949;
+}
+.s-intro-container a {
+  font-size: 0.44rem;
+}
+.s-ad-container {
+  width: 15rem;
+  margin-bottom: 0.2rem;
+}
+.s-ad-container .s-ad {
+  width: 13.56rem;
+  height: 3.48rem;
+}
+.s-ad-container .s-ad img {
+  width: 13.56rem;
+  height: 3.48rem;
+}
+.s-list-container {
+  width: 15rem;
+}
+.s-list-container ul {
+  width: 100%;
+}
+.s-list-container ul li {
+  display: block;
+  height: 1.16rem;
+  border-radius: 1.16rem;
+  background: #f5f5f5;
+  margin: 0.4rem;
+  float: left;
+  text-align: center;
+  line-height: 1.16rem;
+  padding: 0 0.4rem;
+}
+.s-movie-comments-container {
+  width: 15rem;
+  margin-bottom: 0.4rem;
+}
+.s-movie-comments-container .s-movie-comments {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 0.3rem;
+}
+.s-movie-comments-container .s-movie-comments .s-comment-title {
+  width: 100%;
+  height: 0.72rem !important;
+  font-size: 0.6rem;
+  padding-left: 0.4rem;
+  color: #494949 !important;
+}
+.s-movie-comments-container .s-movie-comments .s-comment-author,
+.s-movie-comments-container .s-movie-comments .s-c-bottom {
+  display: block;
+  color: #494949;
+  margin: 0.16rem 0;
+  height: 0.72rem;
+  line-height: 0.72rem;
+}
+.s-movie-comments-container .s-movie-comments .s-comment-author img,
+.s-movie-comments-container .s-movie-comments .s-c-bottom img {
+  width: 2.76rem;
+  height: 0.72rem;
+  margin-bottom: -0.16rem;
+}
+.s-movie-comments-container .s-movie-comments .s-c-bottom {
+  color: #AAAAAA;
+}
+.s-read-container {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+.s-read-container .s-read {
+  width: 100%;
+  height: 100%;
+}
+.s-read-container .s-read span {
+  width: 9.6rem;
+  display: block;
+  float: left;
+  font-size: 0.64rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  color: #494949;
+}
+.s-read-container .s-read img {
+  width: 3.88rem;
+  height: 3.88rem;
+  float: right;
+}
+.s-read-container .s-read p {
+  height: 100%;
+  font-size: 0.52rem;
+  color: #aaaaaa;
+}
+.s-read-container .s-read-bottom {
+  width: 15rem;
+  height: 0.8rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+.s-read-container .s-read-bottom a {
+  float: left;
+  margin-right: 1.8rem;
+  font-size: 0.44rem;
+  color: lightgray;
+  line-height: 0.8rem;
+}
+.s-read-container .s-read-bottom span {
+  font-size: 0.44rem;
+  color: lightgray;
+  line-height: 0.8rem;
+  float: left;
+}
+.s-read-container .s-read-bottom .s-read-a {
+  float: right !important;
+}
